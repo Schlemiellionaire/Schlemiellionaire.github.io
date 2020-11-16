@@ -5,23 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>home</title>
 <style>
-	*	{scrollbar-width: none;}
-	html	{font-family:Source Code Pro; font-size: 16px;}
+	*		{scrollbar-width:none;}
+	html	{font-family:Source Code Pro;
+			 font-size:16px;}
 	body	{margin:0;}
-	a		(text-decoration:none; margin:0;)
-	img		{}
-	@media screen and (min-width: 600px) {.table	{min-width: 600px; margin:30vmin auto;}}
-	.row	{width: 441px; margin:0 auto}
-	.column	{float:left; display:inline-block; margin: 7px; width: 53.5px}
-	@media screen and (max-width: 600px) {.bottom {position: absolute; bottom: 40vmax; left: 3vw}
-										  .center {width: 100vw;}}
+	a		{text-decoration:none;
+			 margin:0;}
+	.img	{width: 50px;
+			 height: auto;}
+	.table	{position:fixed;
+			 top:50%;
+			 left:50%;
+			 transform:translate(-45%, -50%);}
+	.row	{margin:0 auto;}
+	.column	{float:left;
+			 margin:7px;
+			 width:53.5px}
 </style>
 </head>
 <body>
 	<div class="table bottom center">
 		<div class="row">
 			<A class="column" HREF="https://smile.amazon.com/hp/shopwithpoints/account/" target="_blank">
-				<img src="./amazon.png"></A>
+				<img class="img" src="./amazon.png"></A>
 			<A class="column" HREF="https://calendar.google.com/calendar/u/0/r" target="_blank">
 				<img src="https://i.imgur.com/PMN7rB3.png"></A>
 			<A class="column" HREF="https://deckstats.net/decks/37402/f57367/" target="_blank">
@@ -32,6 +38,8 @@
 				<img src="https://i.imgur.com/XgMVUaB.png"></A>
 			<A class="column" HREF="https://edhrec.com/" target="_blank">
 				<img src="https://i.imgur.com/N8nTHx9.png"></A>
+			<A class="column" HREF="#" target="_blank"> <!-- DisneyPlus -->
+				<img src="./Untitled.png"></A>
 		</div>
 		<div class="row">
 			<A class="column" HREF="https://mail.google.com/mail/u/0/#inbox" target="_blank">
@@ -46,6 +54,8 @@
 				<img src="https://i.imgur.com/RvGCvTM.png"></A>
 			<A class="column" HREF="https://photos.google.com/" target="_blank">
 				<img src="https://i.imgur.com/T1ThVp4.png"></A>
+			<A class="column" HREF="#" target="_blank">
+				<img src="./Untitled.png"></A> <!-- Netflix -->
 		</div>
 		<div class="row">
 			<A class="column" HREF="https://podcasts.google.com/feed/aHR0cHM6Ly9yc3MuYXJ0MTkuY29tL3RoZS1kYWlseQ?sa=X&ved=2ahUKEwi9xpCPwObsAhXNEc0KHTzgCH8Q9sEGegQIARAC" target="_blank">
@@ -60,6 +70,8 @@
 				<img src="https://i.imgur.com/fFofgHj.png"></A>
 			<A class="column" HREF="https://www.youtube.com/feed/subscriptions" target="_blank">
 				<img src="https://i.imgur.com/19SUWAh.png"></A>
+			<A class="column" HREF="#" target="_blank">  <!-- NewTab -->
+				<img src="./Untitled.png"></A>
 		</div>
 	</div>
 </body>
